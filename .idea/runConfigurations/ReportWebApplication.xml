@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ReportWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="report-web" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.alex.wojcik.reportweb.ReportWebApplication" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
