@@ -3,6 +3,7 @@ package com.alex.wojcik.reportweb.dto;
 import java.time.LocalDateTime;
 
 public class ReportItemDto {
+
   private String id;
   private LocalDateTime startDate;
   private LocalDateTime endDate;

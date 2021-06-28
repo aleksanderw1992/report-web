@@ -9,6 +9,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "REPORT_ITEM")
 public class ReportItem {
+
   @Id
   @Column(name = "REPORT_ITEM_ID")
   private String id;

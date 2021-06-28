@@ -21,6 +21,9 @@ public class ReportService {
   @Autowired
   private ReportAssembler assembler;
 
+  @Autowired
+  private RepositoryValidator validator;
+
 
   public void clearAllReports() {
     repository.deleteAll();
@@ -35,6 +38,7 @@ public class ReportService {
     if (repository.findById(newEntity.getId()).isPresent()) {
       throw new ReportAlreadyExistsException(dto.getId());
     }
+    validator.validate(newEntity);
     repository.save(newEntity);
   }
 }
